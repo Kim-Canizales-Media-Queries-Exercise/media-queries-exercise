@@ -1,6 +1,7 @@
 @media only screen and (max-width: 600px) {
     html {
         box-sizing: border-box;
+        font-family: sans-serif;
     }
     body {
         font-family: sans-serif;
@@ -52,6 +53,7 @@
     }
 
     img {
+        max-width: calc(100% - 19px);
         /*max-width: 320px ;*/
         padding: 10px;
         width: 100%;
@@ -74,43 +76,71 @@
 
 
 
-/*body {*/
-/*        font-family: sans-serif;*/
-/*        box-sizing: border-box;*/
-/*    }*/
+
+@media only screen and (min-width: 600px) {
+    html {
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
 
 
-/*h1 {*/
-/*    font-size: 60px;*/
-/*}*/
+    h1 {
+        font-size: 60px;
+    }
 
-/*img {*/
-/*    width: 100%;*/
-/*    margin-bottom: 20px;*/
-/*}*/
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 
-/*.main-header {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*}*/
+    .alert-info {
+        display: none;
+    }
 
-/*.nav-links {*/
-/*    display: flex;*/
-/*    list-style: none;*/
-/*    justify-items: end;*/
-/*    font-size: 24px;*/
-/*}*/
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-/*li {*/
-/*    padding-left: 30px;*/
-/*}*/
+    .nav-links {
+        /*background-color: green;*/
+        display: flex;
+        list-style: none;
+        justify-items: end;
+        font-size: 20px;
+    }
 
-/*.info-section {*/
-/*    display: flex;*/
-/*}*/
+    li {
+        padding-left: 30px;
+    }
 
-/*footer {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
+    #main {
+        margin-right: 15px;
+    }
+
+    .sub-section {
+        font-style: italic;
+        padding-left: 50px;
+    }
+
+    .info-section {
+        display: flex;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 250px;
+    }
+
+    #social-media-links {
+        align-self: center;
+    }
+}
+
