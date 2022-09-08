@@ -1,34 +1,103 @@
-body {
-    font-family: sans-serif;
-    box-sizing: border-box;
+@media only screen and (max-width: 600px) {
+    html {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: sans-serif;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        /*box-sizing: border-box;*/
+    }
+
+    .alert-info {
+        border: 1px solid dimgrey;
+        text-align: center;
+        background-color: lightblue;
+        padding: 10px 10px;
+    }
+
+    a:first-of-type {
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+=    }
+
+    .main-header {
+        /*margin: 0;*/
+    }
+    h1 {
+        text-align: center;
+        color: black;
+        font-size: 42px;
+    }
+
+    ul {
+        width: auto;
+        padding: 0;
+    }
+    .nav-links {
+        list-style-type: none;
+    }
+
+    li {
+        text-align: center;
+        background-color: lightgrey;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        width: auto;
+        text-decoration: underline;
+    }
+
+    img {
+        /*max-width: 320px ;*/
+        padding: 10px;
+        width: 100%;
+    }
+
 }
 
-h1 {
-    font-size: 60px;
-}
 
-img {
-    width: 100%;
-    margin-bottom: 20px;
-}
 
-.main-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+/*body {*/
+/*        font-family: sans-serif;*/
+/*        box-sizing: border-box;*/
+/*    }*/
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    justify-items: end;
-    font-size: 24px;
-}
 
-li {
-    padding-left: 30px;
-}
+/*h1 {*/
+/*    font-size: 60px;*/
+/*}*/
 
-.info-section {
-    display: flex;
-}
+/*img {*/
+/*    width: 100%;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.main-header {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.nav-links {*/
+/*    display: flex;*/
+/*    list-style: none;*/
+/*    justify-items: end;*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*li {*/
+/*    padding-left: 30px;*/
+/*}*/
+
+/*.info-section {*/
+/*    display: flex;*/
+/*}*/
+
+/*footer {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
